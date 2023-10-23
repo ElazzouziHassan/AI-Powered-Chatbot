@@ -1,4 +1,5 @@
 import React from 'react'
+import "./chatbot.scss"
 
 function Chatbot() {
   return (
