@@ -1,10 +1,11 @@
 import './App.css'
+import Chatbot from './components/chatbot/Chatbot'
 
 function App() {
 
   return (
     <div className="App">
-      <h1>AI-Powered Chatbot </h1>
+      <Chatbot/>
     </div>
   )
 }
