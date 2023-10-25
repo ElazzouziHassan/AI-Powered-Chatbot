@@ -22,14 +22,7 @@ function Chatbot() {
   };
 
   return (
-    <div className="chatbot">
-      <div className="chat-messages">
-        {chatHistory.map((message, index) => (
-          <div key={index} className={`message ${message.sender === 'user' ? 'user-message' : ''}`}>
-            {message.text}
-          </div>
-        ))}
-      </div>
+    <div className="chatbot-container">
       <div className="suggested-prompts">
         {suggestedPrompts.map((prompt, index) => (
           <button key={index} onClick={() => handleSendMessage(prompt)}>
@@ -37,13 +30,22 @@ function Chatbot() {
           </button>
         ))}
       </div>
-      <input
-        type="text"
-        placeholder="Type your message..."
-        value={userMessage}
-        onChange={handleUserMessageChange}
-      />
-      <button onClick={() => handleSendMessage(userMessage)}>Send</button>
+      <div className="chatbot">
+        <div className="chat-messages">
+          {chatHistory.map((message, index) => (
+            <div key={index} className={`message ${message.sender === 'user' ? 'user-message' : ''}`}>
+              {message.text}
+            </div>
+          ))}
+        </div>
+        <input
+          type="text"
+          placeholder="Type your message..."
+          value={userMessage}
+          onChange={handleUserMessageChange}
+        />
+        <button onClick={() => handleSendMessage(userMessage)}>Send</button>
+      </div>
     </div>
   );
 }
