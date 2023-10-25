@@ -23,14 +23,14 @@ function Chatbot() {
 
   return (
     <div className="chatbot-container">
-      <div className="suggested-prompts">
-        {suggestedPrompts.map((prompt, index) => (
-          <button key={index} onClick={() => handleSendMessage(prompt)}>
-            {prompt}
-          </button>
-        ))}
-      </div>
       <div className="chatbot">
+        <div className="suggested-prompts">
+          {suggestedPrompts.map((prompt, index) => (
+            <button key={index} onClick={() => handleSendMessage(prompt)}>
+              {prompt}
+            </button>
+          ))}
+        </div>
         <div className="chat-messages">
           {chatHistory.map((message, index) => (
             <div key={index} className={`message ${message.sender === 'user' ? 'user-message' : ''}`}>
