@@ -46,4 +46,19 @@ button {
   cursor: pointer;
 }
 
-/* Add more styles as needed */
+
+.suggested-prompts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+
+  button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+}
