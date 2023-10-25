@@ -31,7 +31,6 @@ function Chatbot() {
             </button>
           ))}
         </div>
-        <hr />
         <div className="chat-messages">
           {chatHistory.map((message, index) => (
             <div key={index} className={`message ${message.sender === 'user' ? 'user-message' : ''}`}>
