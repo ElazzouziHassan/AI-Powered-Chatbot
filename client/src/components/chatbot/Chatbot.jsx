@@ -5,9 +5,9 @@ function Chatbot() {
   const [userMessage, setUserMessage] = useState('');
   const [chatHistory, setChatHistory] = useState([]);
   const [suggestedPrompts] = useState([
-    'Tell me about your services',
-    'Pricing information',
-    'How to contact support',
+    'How does blockchain technology work?',
+    'What are the key differences between Python and JavaScript?',
+    'Write a simple code to reverse a string in Python.',
   ]);
 
   const handleUserMessageChange = (event) => {
