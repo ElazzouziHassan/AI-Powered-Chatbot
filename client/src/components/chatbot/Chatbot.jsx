@@ -23,6 +23,7 @@ function Chatbot() {
     <div className="chatbot-container">
 
       <div className="suggested-prompts">
+        <h1>Suggested Prompts</h1>
           {suggestedPrompts.map((prompt, index) => (
             <button key={index} onClick={() => handleSendMessage(prompt)}>
               {prompt}
