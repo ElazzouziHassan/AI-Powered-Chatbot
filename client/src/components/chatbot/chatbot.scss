@@ -1,11 +1,17 @@
 .chatbot-container{
   display: flex;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #5C5470;
   .suggested-prompts{
     flex: 1;
+    background-color: #352F44;
     h1{
-      
+      text-align: center;
+      text-transform: uppercase;
+      color: #FAF0E6;
     }
     button{
 
