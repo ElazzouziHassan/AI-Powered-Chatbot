@@ -1,10 +1,18 @@
 .chatbot-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .suggested-prompts{
+    flex: 1;
+    h1{
+      
+    }
     button{
 
     }
   }
   .chatbot{
+    flex: 2;
     .chat-messages{
       .message{
 
