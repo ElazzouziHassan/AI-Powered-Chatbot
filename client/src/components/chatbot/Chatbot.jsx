@@ -15,10 +15,8 @@ function Chatbot() {
   };
 
   const handleSendMessage = (message) => {
-    // Handle the user message here and send it to the backend
-    // Update the chat history with the bot's response
     setChatHistory([...chatHistory, { text: message, sender: 'user' }]);
-    setUserMessage(''); // Clear the input field
+    setUserMessage(''); 
   };
 
   return (
@@ -38,13 +36,15 @@ function Chatbot() {
             </div>
           ))}
         </div>
-        <input
-          type="text"
-          placeholder="Type your message..."
-          value={userMessage}
-          onChange={handleUserMessageChange}
-        />
-        <button onClick={() => handleSendMessage(userMessage)}>Send</button>
+        <div className="actions">
+          <input
+            type="text"
+            placeholder="Type your message..."
+            value={userMessage}
+            onChange={handleUserMessageChange}
+          />
+          <button onClick={() => handleSendMessage(userMessage)}>Send</button>
+        </div>
       </div>
     </div>
   );
