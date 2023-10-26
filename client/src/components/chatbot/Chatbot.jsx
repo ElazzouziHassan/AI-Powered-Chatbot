@@ -24,11 +24,12 @@ function Chatbot() {
 
       <div className="suggested-prompts">
         <h1>Suggested Prompts</h1>
-          {suggestedPrompts.map((prompt, index) => (
-            <button key={index} onClick={() => handleSendMessage(prompt)}>
-              {prompt}
-            </button>
-          ))}
+        <hr />
+        {suggestedPrompts.map((prompt, index) => (
+          <button key={index} onClick={() => handleSendMessage(prompt)}>
+            {prompt}
+          </button>
+        ))}
       </div>
       
       <div className="chatbot">
