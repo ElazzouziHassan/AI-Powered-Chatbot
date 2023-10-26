@@ -4,6 +4,7 @@
   width: 100%;
   height: 100vh;
   background-color: #5C5470;
+  position: fixed;
   .suggested-prompts{
     flex: 1;
     background-color: #352F44;
@@ -38,6 +39,7 @@
       }
     }
     .actions{
+      
       input[type="text"]{
 
       }
