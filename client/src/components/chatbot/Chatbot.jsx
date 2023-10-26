@@ -11,7 +11,7 @@ function Chatbot() {
   ]);
 
   const handleUserMessageChange = (event) => {
-    setUserMessage(event.target.value);
+    if (event.target.value !== "") return setUserMessage(event.target.value);
   };
 
   const handleSendMessage = (message) => {
