@@ -40,13 +40,19 @@
     }
     .actions{
       width: 100%;
-      
+
       input[type="text"]{
         height: 5vh;
+        width: 85%;
 
       }
       button{
-
+        width: 14%;
+        height: 5.2vh;
+        margin-left: 3px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
       }
     }
   }
