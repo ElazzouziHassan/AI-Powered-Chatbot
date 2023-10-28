@@ -34,13 +34,15 @@
   .chatbot{
     flex: 2;
     .chat-messages{
+      
       .message{
 
       }
     }
     .actions{
       width: 100%;
-
+      position: sticky;
+      bottom: 0;
       input[type="text"]{
         height: 5vh;
         width: 85%;
@@ -52,7 +54,6 @@
         margin-left: 3px;
         border: none;
         cursor: pointer;
-        font-weight: 600;
       }
     }
   }
