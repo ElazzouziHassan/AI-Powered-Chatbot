@@ -34,7 +34,7 @@
   .chatbot{
     flex: 2;
     .chat-messages{
-      
+      overflow-y: scroll;
       .message{
 
       }
