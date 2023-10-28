@@ -8,6 +8,9 @@ function Chatbot() {
     'How does blockchain technology work?',
     'What are the key differences between Python and JavaScript?',
     'Write a simple code to reverse a string in Python.',
+    'Write a simple code to create a simple component in React',
+    'Is JavaScript better than PHP for backend ?',
+    'Laravel or Django ? what framework should I start with ?'
   ]);
 
   const handleUserMessageChange = (event) => {
