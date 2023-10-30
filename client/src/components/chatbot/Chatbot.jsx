@@ -24,38 +24,7 @@ function Chatbot() {
 
   return (
     <div className="chatbot-container">
-
-      <div className="suggested-prompts">
-        <h1>Suggested Prompts</h1>
-        <hr />
-        {suggestedPrompts.map((prompt, index) => (
-          <button key={index} onClick={() => handleSendMessage(prompt)}>
-            {prompt}
-          </button>
-        ))}
-      </div>
       
-      <div className="chatbot">
-
-        <div className="chat-messages">
-          {chatHistory.map((message, index) => (
-            <div key={index} className={`message ${message.sender === 'user' ? 'user-message' : ''}`}>
-              {message.text}
-            </div>
-          ))}
-        </div>
-
-        <div className="actions">
-          <input
-            type="text"
-            placeholder="Type your message..."
-            value={userMessage}
-            onChange={handleUserMessageChange}
-          />
-          <button onClick={() => handleSendMessage(userMessage)}>Send</button>
-        </div>
-
-      </div>
     </div>
   );
 }
