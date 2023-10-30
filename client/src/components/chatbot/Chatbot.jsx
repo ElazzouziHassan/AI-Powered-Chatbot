@@ -24,7 +24,21 @@ function Chatbot() {
 
   return (
     <div className="chatbot-container">
-      <div className="left"></div>
+      <div className="left">
+        <div className="logo">
+          <img src="" alt="AI-Powered-Chatbot" />
+        </div>
+        <div className="suggested-prompts">
+          {suggestedPrompts.map((prompt, index) => (
+            <button key={index} onClick={() => handleSendMessage(prompt)}>
+              {prompt}
+            </button>
+          ))}
+        </div>
+        <div className="footer">
+          
+        </div>
+      </div>
       <div className="left"></div>
     </div>
   );
