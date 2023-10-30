@@ -24,7 +24,8 @@ function Chatbot() {
 
   return (
     <div className="chatbot-container">
-      
+      <div className="left"></div>
+      <div className="left"></div>
     </div>
   );
 }
