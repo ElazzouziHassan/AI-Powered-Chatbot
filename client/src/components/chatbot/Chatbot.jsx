@@ -50,13 +50,15 @@ function Chatbot() {
               </div>
             ))}
           </div>
-          <input
-            type="text"
-            placeholder="Type your message..."
-            value={userMessage}
-            onChange={handleUserMessageChange}
-          />
-          <button onClick={() => handleSendMessage(userMessage)}>Send</button>
+          <div className="actions">
+            <input
+              type="text"
+              placeholder="Type your message..."
+              value={userMessage}
+              onChange={handleUserMessageChange}
+            />
+            <button onClick={() => handleSendMessage(userMessage)}>Send</button>
+          </div>
         </div>
       </div>
     </div>
