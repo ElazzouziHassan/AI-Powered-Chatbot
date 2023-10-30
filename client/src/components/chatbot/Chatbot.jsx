@@ -40,7 +40,24 @@ function Chatbot() {
           <Footer/>
         </div>
       </div>
-      <div className="left"></div>
+      <div className="right">
+        <div className="chatbot">
+          <div className="chat-messages">
+            {chatHistory.map((message, index) => (
+              <div key={index} className={`message ${message.sender === 'user' ? 'user-message' : ''}`}>
+                {message.text}
+              </div>
+            ))}
+          </div>
+          <input
+            type="text"
+            placeholder="Type your message..."
+            value={userMessage}
+            onChange={handleUserMessageChange}
+          />
+          <button onClick={() => handleSendMessage(userMessage)}>Send</button>
+        </div>
+      </div>
     </div>
   );
 }
