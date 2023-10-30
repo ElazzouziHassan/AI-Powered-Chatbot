@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Chatbot.scss';
 import Footer from '../footer/Footer';
+import Logo from "../../assets/logo.png"
 
 function Chatbot() {
   const [userMessage, setUserMessage] = useState('');
@@ -27,7 +28,7 @@ function Chatbot() {
     <div className="chatbot-container">
       <div className="left">
         <div className="logo">
-          <img src="" alt="AI-Powered-Chatbot" />
+          <img src={Logo} alt="AI-Powered-Chatbot" />
         </div>
         <div className="suggested-prompts">
           {suggestedPrompts.map((prompt, index) => (
