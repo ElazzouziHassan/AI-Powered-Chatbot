@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Chatbot.scss';
+import Footer from '../footer/Footer';
 
 function Chatbot() {
   const [userMessage, setUserMessage] = useState('');
@@ -36,7 +37,7 @@ function Chatbot() {
           ))}
         </div>
         <div className="footer">
-          
+          <Footer/>
         </div>
       </div>
       <div className="left"></div>
