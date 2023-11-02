@@ -2,11 +2,7 @@
   display: flex;
   align-items: center;
   .left{
-    width: 35%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-color: aliceblue;
+    
     .logo{
       img{
         width: 15vw;
@@ -32,7 +28,6 @@
     }
   }
   .righ{
-    width: 60%;
     .chatbot{
       .chat-messages{
         flex-grow: 1;
