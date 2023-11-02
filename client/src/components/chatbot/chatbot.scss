@@ -4,13 +4,10 @@
   position: fixed;
   display: flex;
   align-items: center;
-  background-color: #F1EFEF;
   .left{
-    height: 100vh;
     width: 35%;
-    background-color: #9BBEC8;
+    height: 100vh;
     .logo{
-      top: 0;
       img{
         width: 15vw;
       }
@@ -50,7 +47,7 @@
           align-self: flex-start;
         }
         .user-message {
-          background: #164863;
+          background: #2196F3;
           align-self: flex-end;
         }
       }
