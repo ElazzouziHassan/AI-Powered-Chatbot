@@ -1,9 +1,13 @@
 .chatbot-container{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
   display: flex;
   align-items: center;
   .left{
-    
+    width: 35%;
     .logo{
+      top: 0;
       img{
         width: 15vw;
       }
