@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #E4F1FF;
     .logo{
       img{
         width: 15vw;
@@ -30,7 +31,8 @@
       }
     }
     .footer{
-      padding: 5px;
+      padding: 10px;
+      text-align: center;
     }
   }
   .righ{
