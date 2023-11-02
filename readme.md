@@ -18,6 +18,6 @@ This project aims to create an AI-powered chatbot integrated into a website to p
 
 ## Links
 
-- Color pallete : https://colorhunt.co/palette/164863427d9d9bbec8ddf2fd
+- Color pallete : https://colorhunt.co/palette/f1efefccc8aa7d7c7c191717
 
 
