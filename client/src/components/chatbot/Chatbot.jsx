@@ -12,6 +12,9 @@ function Chatbot() {
     'Write a simple code to reverse a string in Python.',
     'Write a simple code to create a simple component in React',
     'Is JavaScript better than PHP for backend ?',
+    'Is JavaScript better than PHP for backend ?',
+    'Is JavaScript better than PHP for backend ?',
+    'Is JavaScript better than PHP for backend ?',
     'Laravel or Django ? what framework should I start with ?'
   ]);
 
