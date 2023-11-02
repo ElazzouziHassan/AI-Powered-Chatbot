@@ -4,8 +4,11 @@
   position: fixed;
   display: flex;
   align-items: center;
+  background-color: #DDF2FD;
   .left{
+    height: 100vh;
     width: 35%;
+    background-color: #9BBEC8;
     .logo{
       top: 0;
       img{
