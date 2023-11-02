@@ -4,6 +4,7 @@
   position: fixed;
   display: flex;
   align-items: center;
+  gap: 20px;
   .left{
     width: 35%;
     height: 100vh;
@@ -23,6 +24,7 @@
       padding: 16px;
       button{
         width: 90%;
+        height: 40px;
         background: #004AAD;
         color: #fff;
         border: none;
