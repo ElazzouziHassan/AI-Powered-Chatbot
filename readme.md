@@ -16,3 +16,8 @@ This project aims to create an AI-powered chatbot integrated into a website to p
 - User authentication (optional) to track user sessions and chat histories.
 
 
+## Links
+
+- Color pallete : https://colorhunt.co/palette/164863427d9d9bbec8ddf2fd
+
+
