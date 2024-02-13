@@ -1,6 +1,5 @@
-import './App.css'
-
 import Chatbot from './components/chatbot/Chatbot'
+import './App.css'
 
 function App() {
 
@@ -9,6 +8,7 @@ function App() {
       <Chatbot/>
     </div>
   )
+
 }
 
 export default App
