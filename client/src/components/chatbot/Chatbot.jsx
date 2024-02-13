@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './Chatbot.scss';
 import Footer from '../footer/Footer';
+import './Chatbot.scss';
 import Logo from "../../assets/logo.png"
 
 function Chatbot() {
+  
   const [userMessage, setUserMessage] = useState('');
   const [chatHistory, setChatHistory] = useState([]);
   const [suggestedPrompts] = useState([
